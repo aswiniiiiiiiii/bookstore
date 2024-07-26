@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Store</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- bootstrap cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg shadow-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo" src="./images/pngwing.com.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto  mb-2 mb-lg-0 ">
+          <li class="nav-item ">
+            <a class="nav-link active text-dark fs-6 fw-bold" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-6 fw-bold" aria-current="page" href="#explore">EXPLORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-6 fw-bold" aria-current="page" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-6 fw-bold" aria-current="page" href="#contact">CONTACT</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 outline-warning" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark " type="submit">Search</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+  <div class="home">
+    <img class="home-bg home-bg-fluid" src="./images/books-5937716.jpg" alt="">
+  </div>
+
+
+  <!-- book collections -->
+  <!-- fiction -->
+  <h1 id="explore" class="fw-bold text-center  text-warning" style="margin: 2rem;
+     -webkit-text-fill-color: yelloow;
+  -webkit-text-stroke: 2px black;">TODAY A READER,TOMORROW A LEADER</h1>
+  <div class="container-fluid d-flex justify-content-center flex-wrap">
+
+    <div class="card mt-10 " style="width: 18rem; margin: 10px">
+      <img src="https://bukukita.com/babacms/displaybuku/112394_f.jpg" class="card-img-top " height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Th 5AM Club</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">The AM Club</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                The 5AM Club by Robin Sharma presents a revolutionary morning routine that will help you upgrade your
+                productivity, happiness, and wellbeing to levels you never thought possible. In this 5AM Club book
+                summary, we will walk you through the key points and takeaways that will help you transform the way you
+                live your life forever!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a target="_blank"
+                    href="https://www.amazon.in/AM-Club-Your-Morning-Elevate/dp/9387944891"
+                    style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-10" style="width: 18rem; margin: 10px">
+      <img
+        src="https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/4/f2/4f24a2e1-f2a1-5264-8240-c4aaca50607a/5acb824c75eec.image.jpg"
+        class="card-img-top" height="300px" alt="...">
+      <div class="card-body ">
+        <h5 class="text-center">Fire Dance</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Fire Dance</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Espionage, diplomacy, conspiracy, passion, and power are the sensuously choreographed steps of the
+                soaring new high fantasy novel by Ilana C. Myer, one woman's epic mission to stop a magical
+                conflagration.
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a
+                    href="https://www.amazon.in/Fire-Dance-Wars-Book-ebook/dp/B0BS7BD73P" target="_blank"
+                    style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-10 " style="width: 18rem; margin: 10px;">
+      <img src="https://acepub.com/wp-content/uploads/2014/05/WarSwordsCoverDeanEdit.jpg" class="card-img-top"
+        height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">The War of Swords</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">The War of Swords</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Having laid his noose around the neck of Karac Tor, Kr’Nunos now begins to tighten the rope. A vast
+                armada sails south, ravers press toward Midland, and an ancient enemy rises from the west, forcing
+                Arthur’s beleaguered armies into a devastating multi-front war. From Portaferry to the critical naval
+                blockade at Seabraith, the Outlanders and the children of the Vanír use every shred of their arcane
+                power to bolster strategic defense points. Yet the Horned Lord has left nothing to chance.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a
+                    href="https://www.amazon.in/Sword-War-God-Tim-Hodkinson-ebook/dp/B0C94FW9CC/ref=sr_1_1?crid=PGJ5NC2C758R&dib=eyJ2IjoiMSJ9.LB0lomVnHF7jvbxf6TdTP9hQMG7jYnUzIX1zU1nbw5XBUJRYipAIemuWMXXX2l8QEgh-fMOFQHSatKiRbiXcyGnwiQcohnB4xiQhbM7WKA5kYmvopBJNZQaR2Y1NGAhigFNW5y8ouvvpJvaR3u-Mc8In-yGw3e9WwQkKriXfImYL3eDDSGq2tuC2vsbRt2nK1z7-wkohu9yDnEnCseuQTld1OFMkJDSI8TPOveQVhQ0.vmKqGUsarClI2uMUYGGoZzLx7pMlJRMx9y2G_SGAcLo&dib_tag=se&keywords=the+war+of+sword&qid=1721989445&s=digital-text&sprefix=the+war+od+sw%2Cdigital-text%2C404&sr=1-1"
+                    target="_blank" style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card mt-10" style="width: 18rem; margin: 10px">
+      <img src="https://miblart.com/wp-content/uploads/2021/03/img_6054aaa776ae7.png" class="card-img-top"
+        height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Carrie Anne's World</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Carrie Anne's World</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Carrie Anne's World: An Odyssey through Space and Time by Mark Whiteway is a speculative eco-fiction
+                novel that follows its primary protagonist, a young man on his gap year by the name of Michael “Mike”
+                O’Keefe, and a cataclysmic string of events that thrust him into conflict from almost the moment he
+                takes a volunteer posting in Thailand.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a
+                    href="https://www.amazon.in/Carrie-Annes-Science-Fiction-Adventure-ebook/dp/B091P8GCK4/ref=sr_1_1?crid=113E2GKV0HAFN&dib=eyJ2IjoiMSJ9.YQ_X-2wEKQBpPsr0tSYZikJt7Qn0A8aK6Bx49asx_Lw.VC-hda28IV6eTLMvLAOR9jrfNdTQB14XgBC4ZBjS2nc&dib_tag=se&keywords=carrie+annes+world&qid=1721989490&s=digital-text&sprefix=carrie+annes+world%2Cdigital-text%2C378&sr=1-1"
+                    target="_blank" style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- history -->
+
+  <div class="container-fluid d-flex justify-content-center flex-wrap">
+
+    <div class="card mt-10" style="width: 18rem; margin: 10px">
+      <img
+        src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/2fb2e055-d962-4a66-ba77-0bd860a97898/1978255263/atomic-habits-by-james-clear-screenshot.png"
+        class="card-img-top" height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Atomic Habits</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Atomic Habits</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Atomic Habits by James Clear is a comprehensive, practical guide on how to change your habits and get 1%
+                better every day. Using a framework called the Four Laws of Behavior Change, Atomic Habits teaches
+                readers a simple set of rules for creating good habits and breaking bad ones. Read the full summary to
+                glean 3 key lessons from Atomic Habits, learn how to build a habit in 4 simple steps, and get a handy
+                reference guide for the strategies recommended throughout the book.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a
+                    href="https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=sr_1_3?adgrpid=1322714093679929&dib=eyJ2IjoiMSJ9.xAoqssi61EZJQQ1VLeENK6MZ1MmQk3v-kuAg5G1CNsbN_1qmSKN6dSNxBI-5B2XsEVRj-PAkA7LpHi2nWa2S7UgjWZegjBFpbDEIvfprmCRJDSJGPZJMF4YP_3GfrNGYrimV2st5cfkVC0R3GEMvpqszPfWn9auKd5wDkQzru8aPiCdP9ZgoX0XpOHn7OOr_.1TzL3jxQegzzi0CjfAsiBL6IXaKCYbXSm2HXzf2teF0&dib_tag=se&hvadid=82669902132412&hvbmt=be&hvdev=c&hvlocphy=149441&hvnetw=o&hvqmt=e&hvtargid=kwd-82670509410460%3Aloc-90&hydadcr=15697_2370439&keywords=atomic+habits+amazon&msclkid=e003dc072c3d1af85f08baa45692f5d4&qid=1721989810&sr=8-3"
+                    style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card " style="width: 18rem; margin: 10px">
+      <img src="./images/history2.jpg" class="card-img-top" height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Big History</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Big History</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Big History resists specialization, and searches for universal patterns or trends. It examines long time
+                frames using a multidisciplinary approach based on combining numerous disciplines from science and the
+                humanities,[1][2][3][4] and explores human existence in the context of this bigger picture
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a href="" style="text-decoration: none; color:white;">Buy
+                    Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card " style="width: 18rem; margin: 10px">
+      <img
+        src="https://i5.walmartimages.com/asr/0ea6502b-4cb2-4176-bfbf-63d0cb845909_1.77f6a15dcfb606189b287b4e156ec141.jpeg"
+        class="card-img-top" height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">The Hobbit</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">The Hobbit</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the
+                pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf and a
+                company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey
+                there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large
+                and very dangerous dragon. The prelude to The Lord of the Rings, The Hobbit has sold many millions of
+                copies since its publication in 1937, establishing itself as one of the most beloved and influential
+                books of the twentieth century.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a target="_blank"
+                    href="https://www.amazon.in/Hobbit-Film-tie-J-R-R-Tolkien/dp/0008118043/ref=sr_1_1?crid=3KH96DA4W6EOU&dib=eyJ2IjoiMSJ9.RcbZLoiu4-2QpUISC7i8jkhw1chju0cm6dED-Ms6gosKlCPekLuuptqog_mitdA3PmXPJQCiKxKsccMNXxc9ivE0ZOvLOD9lZ9A5XvsiJ33C6Q94NlpQ3924j0eLteIA1XgaobYK9Mxko2P_uaBfaIrfePyWdEscyWSf2eme5yXaffmTcoYAXwx9lhEPi3usZt9LKDmzGlDV9K3rmx4A9wldRf2eIM0-rPKNXWTfgDI.IOOWi-LdHbRBqF9yubazng9QLbSZcu2d7Zwjq25JX2s&dib_tag=se&keywords=the+hobbit+book&qid=1721990600&sprefix=the+hobbit+bo%2Caps%2C640&sr=8-1"
+                    style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card " style="width: 18rem; margin: 10px">
+      <img
+        src="https://i5.walmartimages.com/asr/af0b110b-fbcb-482e-815d-3b4c8acce602_2.fbfaf9c10077c66e8a1ce0dce7e1f590.jpeg"
+        class="card-img-top" height="300px" alt="...">
+      <div class="card-body">
+        <h5 class="text-center">Rembering The Great War</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <button type="button" class="btn btn-success ms-10 text-light" style="margin-left:
+        4rem;" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+          Read More
+        </button>
+        <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Rembering The Great War</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                The Great War was a catastrophic world event that affected millions of people in direct and indirect
+                ways. For returning soldiers, volunteers or conscripted civilians in uniform, the experience of war was
+                intensely and traumatically carried forward into their peacetime lives.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary"><a
+                    href="https://www.amazon.in/Remembering-Great-War-Experiences-International-ebook/dp/B07P9YQ466/ref=sr_1_7?crid=15BGKYA8T3EJF&dib=eyJ2IjoiMSJ9.-ia1tKn1zeFi6bRDovuV6cJljQRYvegIxPQxDmP-v13KkIc_swrlMbUigNomsCfjMrIRfzQsobH1VKuEuuEUYMUBD-qQwD-6Vna1MiLIXrLZ6eP4g7g5CCcjnCOm9zR-zT_GIMgbvqqrwaTpl5DUlnWxbfJse_Ke3iwx_7Fm7uevuzEjah51dn7F3zyzLtxklmUeg6JO5LOIVqc0VxtWfvNSkDojurEQL8PKIhRYdPY.CC9BWJ1fCi2q6Nh0QuFY58Y1-pTnOZ4UD9UgZXeqja8&dib_tag=se&keywords=remembering+the+great+war&qid=1721990258&sprefix=rembering+the+great+war%2Caps%2C381&sr=8-7"
+                    target="_blank" style="text-decoration: none; color:white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  
+    <div id="about" class="about-main">
+      <div class="about-container">
+        <h4>About us </h4>
+        <p>Our mission is to help readers discover books they love and get more out of reading. .</p>
+      </div>
+      
+   
+   <footer>
+      </div>
+      <div id="contact" class="footer-container-icons">
+        <i class="fa-brands fa-facebook fb"></i>
+        <i class="fa-brands fa-instagram insta"></i>
+        <i class="fa-brands fa-whatsapp whats"></i>
+      </div>
+   </footer>
+
+</body>
+<!-- bootstrap js cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
